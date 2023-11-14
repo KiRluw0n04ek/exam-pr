@@ -1,0 +1,53 @@
+body {
+  height: 98vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: #7c9ab7;
+  font-weight: bold;
+  text-decoration: none;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width:25%;
+  justify-content: center;
+
+}
+
+input {
+  margin: 2% 0;
+  padding: 1%;
+  border: unset;
+  border-bottom: 2px solid #e3e3e3;
+  outline: none;
+}
+
+button {
+  padding: 1%;
+  background: #e3e3e3;
+  border: unset;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+}
+
+.msg {
+  border: 2px solid #FF0000;
+  border-radius: 3px;
+  padding: 1%;
+  text-align: center;
+  font-weight: bold;
+}
+.msg2 {
+  border: 2px solid #07FF00;
+  border-radius: 3px;
+  padding: 1%;
+  text-align: center;
+  font-weight: bold;
+}
